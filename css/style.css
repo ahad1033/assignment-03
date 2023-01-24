@@ -48,6 +48,13 @@
 
 }
 
+.text-primary-custom{
+    color: #414040 ; 
+}
+
+.text-secondary-custom{
+    color: #707070;
+}
 @media only screen and (max-width: 576px) {
     .banner-img-1 {
         padding: 0 15px;
