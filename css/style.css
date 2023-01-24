@@ -1,15 +1,55 @@
-.banner-img-1{
-    background: linear-gradient(rgba(0, 0, 0, 0.393), rgba(0, 0, 0, 0.41)),url(../images/banner.png);
+.banner-img-1 {
+    background: url(../images/Rectangle\ 5.png), url(../images/banner.png);
     height: 80vh;
     border-radius: 5px;
     padding: 0 250px;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.slider-img-1 {
+    background-image: url(../images/Rectangle\ 7.png), url(../images/slider-1.jpg );
+    height: 100vh;
+    border-radius: 5px;
+    padding: 0 250px;
+    background-position: center;
+    background-size: cover;
+}
+.slider-img-2 {
+    background-image: url(../images/Rectangle\ 7.png), url(../images/slider-2.jpg );
+    height: 100vh;
+    border-radius: 5px;
+    padding: 0 250px;
+    background-position: center;
+    background-size: cover;
+}
+.slider-img-3 {
+    background-image: url(../images/Rectangle\ 7.png), url(../images/slider-3.jpg );
+    height: 100vh;
+    border-radius: 5px;
+    padding: 0 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+.btn-custom{
+    background-color: #B68C5A;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+}
+
+.contact-us-custom{
+    background-color: #F3F3F3;
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+
+}
+
 @media only screen and (max-width: 576px) {
-    .banner-img-1{
+    .banner-img-1 {
         padding: 0 15px;
 
     }
